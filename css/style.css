@@ -1,0 +1,119 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* COMMON */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: #edf2f7;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo-img,
+.logo-text {
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* MAIN */
+.container {
+  width: 60%;
+  margin: 60px auto 10px;
+  background-color: #edf2f7;
+
+  /* Debug */
+  /* height: 400px; */
+}
+
+/* Top box */
+.top {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.top input,
+.top button {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.top button {
+  background-color: #14aaf5;
+  color: white;
+}
+
+/* List box */
+.list-box {
+  padding: 40px;
+}
+
+.main-list h3 {
+  text-transform: uppercase;
+}
+
+.main-list > li {
+  margin-bottom: 15px;
+}
+
+.inner-list > li {
+  background-color: white;
+  padding: 10px;
+}
+
+.circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+}
+
+.check {
+  color: green;
+  border-color: green;
+}
+
+.cross {
+  color: red;
+  border-color: red;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.editorial {
+  background-color: #14AAF5;
+}
+
+.recruiting {
+  background-color: #33C7AD;
+}
+
+.done,
+.done .tag {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
